@@ -5,10 +5,10 @@ export default function LayoutFooter() {
   return (
     <div>
       <Divider />
-      <p style={{ fontSize: "10px", fontWeight: "40", color: "grey" }}>
+      <p style={{ fontSize: "15px", fontWeight: "40", color: "grey" }}>
         © کلیه حقوق این سایت محفوظ و متعلق به فروشگاه اینترنتی کتاب طاقچه است.
       </p>
-      <div style={{ fontSize: "14px", fontWeight: "40" }}>
+      <div style={{ fontSize: "15", fontWeight: "40" }}>
         <a href="https://publisher.taaghche.com/login"> ورود ناشران </a>
         <span>|</span>
         <a href="https://taaghche.com/termsAndConditions"> شرایط استفاده </a>

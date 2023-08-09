@@ -11,7 +11,7 @@ export default function PageLayout() {
       <Header style={{ height: "100px", padding: "16" }}>
         <LayoutHeader />
       </Header>
-      <Content>
+      <Content style={{ paddingTop: "20px" }}>
         <Outlet />
       </Content>
       <Footer>

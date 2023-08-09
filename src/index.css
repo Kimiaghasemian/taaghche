@@ -1,14 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "IranYekan";
+  font-style: normal;
+  font-weight: normal;
+  src: local("IranYekan"),
+    url("/src/assets/fonts/IranYekan/IRANYekanMobileRegular.ttf")
+      format("truetype");
+}
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "IranYekan";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: "IranYekan";
 }
 
 .ant-layout-header {
